@@ -144,7 +144,7 @@ class _RegistrationPreviewPageState extends State<RegistrationPreviewPage> {
             else
               Center(
                 child: Text(
-                  "You're registered! ${widget.organization} thanks you "
+                  "You're registered! ${widget.organization} Thank you "
                   "for your support.",
                   textAlign: TextAlign.center,
                   style: const TextStyle(
