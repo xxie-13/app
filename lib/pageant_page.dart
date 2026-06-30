@@ -135,8 +135,7 @@ class _PageantPageState extends State<PageantPage> {
                   ClipRRect(
                     borderRadius: BorderRadius.circular(8),
                     child: Image.asset(
-                      // photo candidates
-                      "assets/images/blank.png",
+                      "assets/images/pageant_poster.png",
                       width: 60,
                       height: 60,
                       fit: BoxFit.cover,
