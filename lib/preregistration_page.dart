@@ -98,7 +98,7 @@ class _PreregistrationPageState extends State<PreregistrationPage> {
             verticalSpacer(12),
             createTextfield(
               _organizationController,
-              "Color Organization (e.g. Blue Ridge)",
+              "Color Organization (e.g. Red Fishers)",
             ),
             verticalSpacer(4),
             Text(
