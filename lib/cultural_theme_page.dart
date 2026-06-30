@@ -21,8 +21,7 @@ class CulturalThemePage extends StatelessWidget {
             child: ClipRRect(
               borderRadius: BorderRadius.circular(12),
               child: Image.asset(
-                // bytingbanner
-                "assets/images/blank.png",
+                "assets/images/34th.png",
                 fit: BoxFit.contain,
               ),
             ),
