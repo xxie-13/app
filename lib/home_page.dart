@@ -54,8 +54,7 @@ class _HomePageState extends State<HomePage> {
         leading: const Icon(Icons.celebration),
         title: Row(
           children: [
-            // euc logo
-            Image.asset("assets/images/blank.png", height: 28, width: 28),
+            Image.asset("assets/images/logo.png", height: 28, width: 28),
             const SizedBox(width: 8),
             Expanded(
               child: Text(
