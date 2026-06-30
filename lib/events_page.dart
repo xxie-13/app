@@ -38,8 +38,7 @@ class EventsPage extends StatelessWidget {
               ClipRRect(
                 borderRadius: BorderRadius.circular(8),
                 child: Image.asset(
-                  // looking back moving f image
-                  "assets/images/blank.png",
+                  "assets/images/33rd.png",
                   width: 100,
                   height: 100,
                   fit: BoxFit.cover,
