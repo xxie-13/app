@@ -224,12 +224,12 @@ class _PageantPageState extends State<PageantPage> {
           verticalSpacer(12),
           createTextfield(
             _estimateOrgController,
-            "Color Organization (e.g. Blue Ridge)",
+            "Color Organization (e.g. Red Fishers)",
           ),
           verticalSpacer(12),
           createTextfield(
             _estimateParticipantsController,
-            "Hypothetical Active Participants",
+            "Active Participants (Preview Only)",
             keyboardType: TextInputType.number,
           ),
           verticalSpacer(16),
