@@ -77,7 +77,7 @@ class _PageantPageState extends State<PageantPage> {
             actions: [
               TextButton(
                 onPressed: () => Navigator.pop(context),
-                child: const Text("Nice!"),
+                child: const Text("Close"),
               ),
             ],
           );
