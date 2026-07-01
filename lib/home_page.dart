@@ -51,33 +51,16 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        leading: const Icon(Icons.celebration),
-        title: Row(
-          children: [
-            Image.asset("assets/images/logo.png", height: 28, width: 28),
-            const SizedBox(width: 8),
-            Expanded(
-              child: Text(
-                _titles[_selectedIndex],
-                overflow: TextOverflow.ellipsis,
-              ),
-            ),
-          ],
+        leading: Builder(      
+          builder: (context) {
+            return IconButton(
+              icon: const Icon(Icons.menu),
+              onPressed: () {
+                Scaffold.of(context).openDrawer();
+              },
+            );
+          },
         ),
-        centerTitle: false,
-        actions: [
-          Builder(
-            builder: (context) {
-              return IconButton(
-                icon: const Icon(Icons.menu),
-                onPressed: () {
-                  Scaffold.of(context).openDrawer();
-                },
-              );
-            },
-          ),
-        ],
-      ),
 
       drawer: createDrawer(context, _selectedIndex, _onItemSelected),
 
