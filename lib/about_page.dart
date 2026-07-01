@@ -127,29 +127,6 @@ class AboutPage extends StatelessWidget {
                 "Cultivating mental toughness, perseverance, and "
                 "resilience in the face of challenges and setbacks.",
           ),
-
-          verticalSpacer(12),
-          createHeader("The Four Color Organizations"),
-          verticalSpacer(8),
-          Row(
-            children: [
-              const Icon(Icons.groups, color: AppColors.maroon),
-              const SizedBox(width: 8),
-              Expanded(
-                child: Text(
-                  colorOrganizations.join("  •  "),
-                  style: const TextStyle(fontWeight: FontWeight.w600),
-                ),
-              ),
-            ],
-          ),
-          verticalSpacer(4),
-          const Text(
-            "Every Founding Anniversary, these four organizations compete "
-            "across academics, culture, sports, and the search for this "
-            "year's Little Miss, Miss Young, Miss Teen, and Miss Enverga.",
-            style: TextStyle(fontSize: 13, color: Colors.black87),
-          ),
         ],
       ),
     );
