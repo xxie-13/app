@@ -70,21 +70,6 @@ class CulturalThemePage extends StatelessWidget {
                 "A dance exploring physical and genetic limits, and the "
                 "discipline it takes to push past natural fatigue.",
           ),
-
-          verticalSpacer(16),
-          Row(
-            children: const [
-              Icon(Icons.palette, color: AppColors.maroon),
-              SizedBox(width: 8),
-              Expanded(
-                child: Text(
-                  "Stay tuned — standings and awards will be announced "
-                  "once the competition concludes.",
-                  style: TextStyle(fontSize: 13),
-                ),
-              ),
-            ],
-          ),
         ],
       ),
     );
