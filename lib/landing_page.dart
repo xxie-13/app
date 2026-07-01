@@ -49,7 +49,7 @@ class LandingPage extends StatelessWidget {
                 ),
                 const SizedBox(height: 30),
                 Text(
-                  "Tap the logo to continue",
+                  "Tap to continue",
                   style: TextStyle(
                     color: AppColors.offWhite.withValues(alpha: 0.8),
                     fontSize: 13,
